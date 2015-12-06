@@ -5,9 +5,9 @@ Stamper is a PhantomJS script to take a screenshot of a web page with CSS select
 ## Examples
 
 ```
-phantomjs stamper.js https://github.com/ariya/phantomjs/issues/11418 '#issue-15753818' output.png
+phantomjs stamper.js 'http://www.urbandictionary.com/define.php?term=sugar+daddy' '.def-panel[data-defid="527271"]' output.png
 ```
 
 This will produce:
 
-![output.png](https://raw.githubusercontent.com/buo/stamper/master/output.png)
+![output.png](https://raw.githubusercontent.com/buo/stamper/master/output.png?t=1449409109)
