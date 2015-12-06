@@ -2,6 +2,11 @@ var page = require('webpage').create(),
     system = require('system'),
     address, output, size;
 
+page.viewportSize = {
+  width: 640,
+  height: 480
+};
+
 if (system.args.length < 4 || system.args.length > 5) {
     console.log('Usage: '+system.args[0]+' URL selector filename [zoom]');
     phantom.exit(1);
